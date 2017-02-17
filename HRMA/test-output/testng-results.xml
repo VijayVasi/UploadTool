@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111002" started-at="2017-02-13T15:36:04Z" finished-at="2017-02-13T15:37:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111002" started-at="2017-02-13T15:36:04Z" finished-at="2017-02-13T15:37:55Z">
+      <class name="com.hrm.scripts.DeleteEmployee">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="initReport" is-config="true" duration-ms="321" started-at="2017-02-13T21:06:03Z" finished-at="2017-02-13T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="initGlobalVar" is-config="true" duration-ms="2" started-at="2017-02-13T21:06:04Z" finished-at="2017-02-13T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="initApplication" is-config="true" duration-ms="3406" started-at="2017-02-13T21:06:04Z" finished-at="2017-02-13T21:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="preCondition" is-config="true" duration-ms="2891" started-at="2017-02-13T21:06:07Z" finished-at="2017-02-13T21:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.DeleteEmployee.testDeleteEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testDeleteEmployee()[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="testDeleteEmployee" duration-ms="103252" started-at="2017-02-13T21:06:10Z" finished-at="2017-02-13T21:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteEmployee -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="postCondition" is-config="true" duration-ms="468" started-at="2017-02-13T21:07:53Z" finished-at="2017-02-13T21:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteEmployee status=SUCCESS method=DeleteEmployee.testDeleteEmployee()[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="closeApplication" is-config="true" duration-ms="953" started-at="2017-02-13T21:07:54Z" finished-at="2017-02-13T21:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.hrm.scripts.DeleteEmployee@5702b3b1]" name="publishReport" is-config="true" duration-ms="400" started-at="2017-02-13T21:07:55Z" finished-at="2017-02-13T21:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.hrm.scripts.DeleteEmployee -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
