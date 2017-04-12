@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Next Method is: login]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[The Test is passed]]>
+    </line>
+    <line>
+      <![CDATA[Next Method is: logout]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[The Test is Failed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69" started-at="2017-03-25T10:36:01Z" finished-at="2017-03-25T10:36:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69" started-at="2017-03-25T10:36:01Z" finished-at="2017-03-25T10:36:01Z">
+      <class name="qspiders.Demo1">
+        <test-method status="PASS" signature="m1(java.lang.reflect.Method)[pri:0, instance:qspiders.Demo1@5dfcfece]" name="m1" is-config="true" duration-ms="9" started-at="2017-03-25T16:06:01Z" finished-at="2017-03-25T16:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qspiders.Demo1.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Next Method is: login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="login()[pri:0, instance:qspiders.Demo1@5dfcfece]" name="login" duration-ms="7" started-at="2017-03-25T16:06:01Z" finished-at="2017-03-25T16:06:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="m3(org.testng.ITestResult)[pri:0, instance:qspiders.Demo1@5dfcfece]" name="m3" is-config="true" duration-ms="1" started-at="2017-03-25T16:06:01Z" finished-at="2017-03-25T16:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Demo1.login()[pri:0, instance:qspiders.Demo1@5dfcfece] output=login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m1(java.lang.reflect.Method)[pri:0, instance:qspiders.Demo1@5dfcfece]" name="m1" is-config="true" duration-ms="0" started-at="2017-03-25T16:06:01Z" finished-at="2017-03-25T16:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qspiders.Demo1.logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Next Method is: logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="FAIL" signature="logout()[pri:0, instance:qspiders.Demo1@5dfcfece]" name="logout" duration-ms="9" started-at="2017-03-25T16:06:01Z" finished-at="2017-03-25T16:06:01Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at qspiders.Demo1.logout(Demo1.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="m3(org.testng.ITestResult)[pri:0, instance:qspiders.Demo1@5dfcfece]" name="m3" is-config="true" duration-ms="2" started-at="2017-03-25T16:06:01Z" finished-at="2017-03-25T16:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=FAILURE method=Demo1.logout()[pri:0, instance:qspiders.Demo1@5dfcfece] output=logout]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Test is Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- qspiders.Demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
