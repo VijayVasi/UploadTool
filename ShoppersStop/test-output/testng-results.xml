@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[@BeforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeTest]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[@TestMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[@AfterTest]]>
+    </line>
+    <line>
+      <![CDATA[@AfterSuite]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35" started-at="2017-04-08T06:14:05Z" finished-at="2017-04-08T06:14:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35" started-at="2017-04-08T06:14:05Z" finished-at="2017-04-08T06:14:05Z">
+      <class name="qsp.Demo1">
+        <test-method status="PASS" signature="m1()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m1" is-config="true" duration-ms="12" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m3" is-config="true" duration-ms="0" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m5()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m5" is-config="true" duration-ms="1" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method status="PASS" signature="m9()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m9" duration-ms="8" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@TestMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m9 -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m7" is-config="true" duration-ms="0" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m8" is-config="true" duration-ms="1" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m6" is-config="true" duration-ms="1" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m4" is-config="true" duration-ms="1" started-at="2017-04-08T11:44:05Z" finished-at="2017-04-08T11:44:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:qsp.Demo1@5d5eef3d]" name="m2" is-config="true" duration-ms="0" started-at="2017-04-08T11:44:06Z" finished-at="2017-04-08T11:44:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- qsp.Demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
