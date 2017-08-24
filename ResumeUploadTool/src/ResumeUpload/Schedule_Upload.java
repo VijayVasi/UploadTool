@@ -56,7 +56,7 @@ public class Schedule_Upload {
 		driver.findElement(By.xpath("//button[text() = 'Login']")).click();
 		driver.findElement(By.xpath("//b[text() = 'View and Update Profile']")).click();
 		driver.findElement(By.xpath("//a[text() = 'Upload New Resume']")).click();
-		driver.findElement(By.xpath("//input[@id = 'attachCV']")).sendKeys("H:\\Tool\\Data\\VijayVasi_SeniorTestEngineer.docx");
+		driver.findElement(By.xpath("//input[@id = 'attachCV']")).sendKeys("H:\\Tool\\Data\\VijayVasi_AutomationTestEngineer.docx");
 		driver.findElement(By.xpath("//b[text() = 'Save']")).click();
 		
 		WebElement MyNaukri = driver.findElement(By.xpath("//div[contains(text(),'My Naukri')]"));
